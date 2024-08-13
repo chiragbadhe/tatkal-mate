@@ -1,0 +1,48 @@
+# Node modules
+/node_modules
+
+# Compiled output
+/dist
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript build output
+*.tsbuildinfo
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# NPM package lock files
+package-lock.json
+yarn.lock
+
+# Build artifacts
+*.tgz
+*.zip
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# Docker
+docker-compose.override.yml
